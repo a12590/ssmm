@@ -40,3 +40,16 @@ springmvc_spring_mybatis_maven
     无
       <!-- 自动扫描(自动注入) -->
       <context:component-scan base-package="com.ssmm.service" />
+      
+## Contrller使用注解开发
+            import org.springframework.beans.factory.annotation.Autowired;
+            import org.springframework.web.bind.annotation.PathVariable;
+            import org.springframework.web.bind.annotation.RequestMapping;
+            import org.springframework.web.bind.annotation.RequestMethod;
+            import org.springframework.web.bind.annotation.ResponseBody;
+## pom.xml
+
+## generator 逆向工程
+            generator.xml
+            mybatis-generator-core-1.3.2.jar
+            mysql-connector-java-5.1.22.jar
